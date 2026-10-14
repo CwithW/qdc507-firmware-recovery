@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.bin binary
+*.mbn binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.sha256 text eol=lf

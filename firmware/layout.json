@@ -1,0 +1,98 @@
+{
+  "page_size": 2048,
+  "eraseblock_size": 131072,
+  "total_size": 134217728,
+  "oob_included": false,
+  "partitions": [
+    {
+      "name": "SBL",
+      "offset": 0,
+      "size": 1310720,
+      "protected": false
+    },
+    {
+      "name": "MIBIB",
+      "offset": 1310720,
+      "size": 1310720,
+      "protected": false
+    },
+    {
+      "name": "EFS2",
+      "offset": 2621440,
+      "size": 17825792,
+      "protected": true
+    },
+    {
+      "name": "sys_rev",
+      "offset": 20447232,
+      "size": 3407872,
+      "protected": true
+    },
+    {
+      "name": "RAWDATA",
+      "offset": 23855104,
+      "size": 524288,
+      "protected": false
+    },
+    {
+      "name": "sec",
+      "offset": 24379392,
+      "size": 524288,
+      "protected": true
+    },
+    {
+      "name": "TZ",
+      "offset": 24903680,
+      "size": 1572864,
+      "protected": false
+    },
+    {
+      "name": "RPM",
+      "offset": 26476544,
+      "size": 655360,
+      "protected": false
+    },
+    {
+      "name": "machine",
+      "offset": 27131904,
+      "size": 655360,
+      "protected": true
+    },
+    {
+      "name": "aboot",
+      "offset": 27787264,
+      "size": 1310720,
+      "protected": false
+    },
+    {
+      "name": "boot",
+      "offset": 29097984,
+      "size": 5636096,
+      "protected": false
+    },
+    {
+      "name": "misc",
+      "offset": 34734080,
+      "size": 524288,
+      "protected": true
+    },
+    {
+      "name": "recoveryfs",
+      "offset": 35258368,
+      "size": 5505024,
+      "protected": false
+    },
+    {
+      "name": "usr_data",
+      "offset": 40763392,
+      "size": 22020096,
+      "protected": true
+    },
+    {
+      "name": "system",
+      "offset": 62783488,
+      "size": 71434240,
+      "protected": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+private/
+backups/
+logs/
+*.log
+*.qcn
+*.xqcn
+full-nand*
+*-readback.bin
+state.json
+*.zip
+*.tar*
