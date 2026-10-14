@@ -75,6 +75,21 @@ class ProtectionTests(unittest.TestCase):
         self.assertFalse(any(Path(s).suffix.lower() in {'.qcn','.xqcn','.log'} for s in entries))
         self.assertFalse(any('full-nand' in Path(s).name for s in entries))
 
+    def test_reference_partitions_cannot_be_flashed(self):
+        reference = ROOT / 'reference/calibration'
+        report = json.loads((reference / 'sanitization.json').read_text())
+        self.assertEqual({p['name'] for p in report['partitions']}, {'EFS2', 'sys_rev'})
+        for p in report['partitions']:
+            image = reference / p['file']
+            start, size = r.REGIONS[p['name']]
+            self.assertEqual(image.stat().st_size, size)
+            self.assertEqual(r.digest(image), p['sha256'])
+            for mode in ('update', 'nand-rebuild'):
+                with self.assertRaises(ValueError):
+                    guard.validate_command(['ws', str(start // r.PAGE), str(image)], mode)
+                with self.assertRaises(ValueError):
+                    guard.validate_command(['es', str(start // r.PAGE), str(size // r.PAGE)], mode)
+
     def test_blank_and_matching_mibib(self):
         m=(ROOT/'firmware/images/MIBIB.bin').read_bytes()
         data=bytearray(b'\xff'*r.TOTAL)

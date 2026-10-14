@@ -12,7 +12,9 @@
 不能只根据 9008 USB ID 或 9x07 芯片型号判断兼容性。尚未完成实机刷写、启动、联网验证。
 
 本仓库保留九个公开固件分区、Firehose loader、分区布局、受限刷机脚本和恢复教程。
-不包含原设备的 EFS2、sys_rev、usr_data、QCN/XQCN、整片 NAND、设备 SN/IMEI 或私人备份日志。
+恢复固件不包含设备专属分区。独立的 [校准参考目录](reference/calibration/README.md) 提供
+移除已识别 IMEI/SN/IMSI/ICCID 后的 EFS2、sys_rev 原始分区副本，仅供参考、禁止刷入，
+不构成完整匿名化保证。不附 usr_data、QCN/XQCN、整片 NAND 或私人备份日志。
 
 ## 恢复范围
 
@@ -72,6 +74,7 @@ firmware/manifest.json   九区与 loader 的来源和校验值
 firmware/*public.xml     默认五区映射
 firmware/*rebuild_only.xml 仅限 NAND 内容彻底损坏时的九区映射
 scripts/                校验、预览、备份、受限刷机、候选包打包
+reference/calibration/  脱敏原始分区参考副本，不进入刷写流程
 vendor/edl/             上游 bkerler/edl Git 子模块，固定提交
 tests/                  离线范围保护和打包测试
 docs/                   教程、来源、隐私检查和审核清单

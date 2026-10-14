@@ -1,0 +1,55 @@
+{
+  "scope": [
+    "IMEI",
+    "device_serial",
+    "IMSI",
+    "ICCID"
+  ],
+  "replacement": "0x00 bytes; invalid identity values",
+  "raw_partition_sizes_preserved": true,
+  "firmware_version_of_source": "QDC507GLEFM21_01.001.01.009",
+  "partitions": [
+    {
+      "name": "EFS2",
+      "file": "EFS2.redacted.bin",
+      "size": 17825792,
+      "sha256": "c20149b1aa67ef88278473c7895ef12f371ddf614917278698694106de9ef2cc",
+      "changed_bytes": 2296,
+      "matched_ranges_before_merge": 222,
+      "target_identity_files": [
+        "nv/item_files/mcfg/mcfg_last_autoselect_iccid",
+        "nv/item_files/modem/uim/mmgsdi/rpm_iccid",
+        "nv/item_files/quectel/aaa_bbb",
+        "nv/item_files/quectel/quec_imei_backup",
+        "nvm/num/550",
+        "nvm/num/7233",
+        "nvm/num/923"
+      ],
+      "known_identity_patterns_remaining": 0,
+      "rfnv_files_verified_unchanged": 943,
+      "filesystem_reparsed": true,
+      "identity_records_reparsed_as_invalid": true
+    },
+    {
+      "name": "sys_rev",
+      "file": "sys_rev.redacted.bin",
+      "size": 3407872,
+      "sha256": "0ed461095f7f675eaebd1483507b5e99d5f36330ef4e05289282ebad1f6f715a",
+      "changed_bytes": 90,
+      "matched_ranges_before_merge": 13,
+      "target_identity_files": [
+        "nv/item_files/mcfg/mcfg_last_autoselect_iccid",
+        "nv/item_files/modem/uim/mmgsdi/rpm_iccid",
+        "nv/item_files/quectel/aaa_bbb",
+        "nv/item_files/quectel/quec_imei_backup",
+        "nvm/num/550",
+        "nvm/num/7233",
+        "nvm/num/923"
+      ],
+      "known_identity_patterns_remaining": 0,
+      "rfnv_files_verified_unchanged": 943,
+      "filesystem_reparsed": true,
+      "identity_records_reparsed_as_invalid": true
+    }
+  ]
+}
