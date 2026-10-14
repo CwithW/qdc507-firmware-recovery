@@ -13,8 +13,8 @@
 
 本仓库保留九个公开固件分区、Firehose loader、分区布局、受限刷机脚本和恢复教程。
 恢复固件不包含设备专属分区。独立的 [校准参考目录](reference/calibration/README.md) 提供
-移除已识别 IMEI/SN/IMSI/ICCID 后的 EFS2、sys_rev 原始分区副本，仅供参考、禁止刷入，
-不构成完整匿名化保证。不附 usr_data、QCN/XQCN、整片 NAND 或私人备份日志。
+移除已识别 IMEI/SN/IMSI/ICCID 后的 EFS2、sys_rev、usr_data、sec、machine、misc 原始分区副本，仅供参考、禁止刷入，
+不构成完整匿名化保证。不附 QCN/XQCN、整片 NAND 或私人备份日志。
 
 ## 恢复范围
 

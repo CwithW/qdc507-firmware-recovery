@@ -1,0 +1,3417 @@
+{
+  "schema": 1,
+  "offset_basis": "Byte offsets from start of each partition image, not whole NAND; lengths in bytes; exclusive end = offset + length",
+  "privacy": "No original values, original bytes, original identity hashes or original partition hashes are published",
+  "partitions": [
+    {
+      "name": "EFS2",
+      "file": "EFS2.redacted.bin",
+      "size": 17825792,
+      "redacted_sha256": "c20149b1aa67ef88278473c7895ef12f371ddf614917278698694106de9ef2cc",
+      "changed_bytes": 2296,
+      "changed_ranges": [
+        {
+          "offset": 363306,
+          "offset_hex": "0x58b2a",
+          "length": 8
+        },
+        {
+          "offset": 2933433,
+          "offset_hex": "0x2cc2b9",
+          "length": 3
+        },
+        {
+          "offset": 2933437,
+          "offset_hex": "0x2cc2bd",
+          "length": 6
+        },
+        {
+          "offset": 2939577,
+          "offset_hex": "0x2cdab9",
+          "length": 3
+        },
+        {
+          "offset": 2939581,
+          "offset_hex": "0x2cdabd",
+          "length": 6
+        },
+        {
+          "offset": 2945721,
+          "offset_hex": "0x2cf2b9",
+          "length": 3
+        },
+        {
+          "offset": 2945725,
+          "offset_hex": "0x2cf2bd",
+          "length": 6
+        },
+        {
+          "offset": 2953913,
+          "offset_hex": "0x2d12b9",
+          "length": 3
+        },
+        {
+          "offset": 2953917,
+          "offset_hex": "0x2d12bd",
+          "length": 6
+        },
+        {
+          "offset": 2978900,
+          "offset_hex": "0x2d7454",
+          "length": 17
+        },
+        {
+          "offset": 3015353,
+          "offset_hex": "0x2e02b9",
+          "length": 3
+        },
+        {
+          "offset": 3015357,
+          "offset_hex": "0x2e02bd",
+          "length": 6
+        },
+        {
+          "offset": 3021497,
+          "offset_hex": "0x2e1ab9",
+          "length": 3
+        },
+        {
+          "offset": 3021501,
+          "offset_hex": "0x2e1abd",
+          "length": 6
+        },
+        {
+          "offset": 3027641,
+          "offset_hex": "0x2e32b9",
+          "length": 3
+        },
+        {
+          "offset": 3027645,
+          "offset_hex": "0x2e32bd",
+          "length": 6
+        },
+        {
+          "offset": 3035833,
+          "offset_hex": "0x2e52b9",
+          "length": 3
+        },
+        {
+          "offset": 3035837,
+          "offset_hex": "0x2e52bd",
+          "length": 6
+        },
+        {
+          "offset": 3093177,
+          "offset_hex": "0x2f32b9",
+          "length": 3
+        },
+        {
+          "offset": 3093181,
+          "offset_hex": "0x2f32bd",
+          "length": 6
+        },
+        {
+          "offset": 3099321,
+          "offset_hex": "0x2f4ab9",
+          "length": 3
+        },
+        {
+          "offset": 3099325,
+          "offset_hex": "0x2f4abd",
+          "length": 6
+        },
+        {
+          "offset": 3105465,
+          "offset_hex": "0x2f62b9",
+          "length": 3
+        },
+        {
+          "offset": 3105469,
+          "offset_hex": "0x2f62bd",
+          "length": 6
+        },
+        {
+          "offset": 3113657,
+          "offset_hex": "0x2f82b9",
+          "length": 3
+        },
+        {
+          "offset": 3113661,
+          "offset_hex": "0x2f82bd",
+          "length": 6
+        },
+        {
+          "offset": 3160761,
+          "offset_hex": "0x303ab9",
+          "length": 3
+        },
+        {
+          "offset": 3160765,
+          "offset_hex": "0x303abd",
+          "length": 6
+        },
+        {
+          "offset": 3166905,
+          "offset_hex": "0x3052b9",
+          "length": 3
+        },
+        {
+          "offset": 3166909,
+          "offset_hex": "0x3052bd",
+          "length": 6
+        },
+        {
+          "offset": 3173049,
+          "offset_hex": "0x306ab9",
+          "length": 3
+        },
+        {
+          "offset": 3173053,
+          "offset_hex": "0x306abd",
+          "length": 6
+        },
+        {
+          "offset": 3181241,
+          "offset_hex": "0x308ab9",
+          "length": 3
+        },
+        {
+          "offset": 3181245,
+          "offset_hex": "0x308abd",
+          "length": 6
+        },
+        {
+          "offset": 3601081,
+          "offset_hex": "0x36f2b9",
+          "length": 3
+        },
+        {
+          "offset": 3601085,
+          "offset_hex": "0x36f2bd",
+          "length": 6
+        },
+        {
+          "offset": 3613369,
+          "offset_hex": "0x3722b9",
+          "length": 3
+        },
+        {
+          "offset": 3613373,
+          "offset_hex": "0x3722bd",
+          "length": 6
+        },
+        {
+          "offset": 3619513,
+          "offset_hex": "0x373ab9",
+          "length": 3
+        },
+        {
+          "offset": 3619517,
+          "offset_hex": "0x373abd",
+          "length": 6
+        },
+        {
+          "offset": 3627705,
+          "offset_hex": "0x375ab9",
+          "length": 3
+        },
+        {
+          "offset": 3627709,
+          "offset_hex": "0x375abd",
+          "length": 6
+        },
+        {
+          "offset": 4168377,
+          "offset_hex": "0x3f9ab9",
+          "length": 3
+        },
+        {
+          "offset": 4168381,
+          "offset_hex": "0x3f9abd",
+          "length": 6
+        },
+        {
+          "offset": 4174521,
+          "offset_hex": "0x3fb2b9",
+          "length": 3
+        },
+        {
+          "offset": 4174525,
+          "offset_hex": "0x3fb2bd",
+          "length": 6
+        },
+        {
+          "offset": 4180665,
+          "offset_hex": "0x3fcab9",
+          "length": 3
+        },
+        {
+          "offset": 4180669,
+          "offset_hex": "0x3fcabd",
+          "length": 6
+        },
+        {
+          "offset": 4188857,
+          "offset_hex": "0x3feab9",
+          "length": 3
+        },
+        {
+          "offset": 4188861,
+          "offset_hex": "0x3feabd",
+          "length": 6
+        },
+        {
+          "offset": 4235961,
+          "offset_hex": "0x40a2b9",
+          "length": 3
+        },
+        {
+          "offset": 4235965,
+          "offset_hex": "0x40a2bd",
+          "length": 6
+        },
+        {
+          "offset": 4242105,
+          "offset_hex": "0x40bab9",
+          "length": 3
+        },
+        {
+          "offset": 4242109,
+          "offset_hex": "0x40babd",
+          "length": 6
+        },
+        {
+          "offset": 4248249,
+          "offset_hex": "0x40d2b9",
+          "length": 3
+        },
+        {
+          "offset": 4248253,
+          "offset_hex": "0x40d2bd",
+          "length": 6
+        },
+        {
+          "offset": 4256441,
+          "offset_hex": "0x40f2b9",
+          "length": 3
+        },
+        {
+          "offset": 4256445,
+          "offset_hex": "0x40f2bd",
+          "length": 6
+        },
+        {
+          "offset": 4315833,
+          "offset_hex": "0x41dab9",
+          "length": 3
+        },
+        {
+          "offset": 4315837,
+          "offset_hex": "0x41dabd",
+          "length": 6
+        },
+        {
+          "offset": 4321977,
+          "offset_hex": "0x41f2b9",
+          "length": 3
+        },
+        {
+          "offset": 4321981,
+          "offset_hex": "0x41f2bd",
+          "length": 6
+        },
+        {
+          "offset": 4328121,
+          "offset_hex": "0x420ab9",
+          "length": 3
+        },
+        {
+          "offset": 4328125,
+          "offset_hex": "0x420abd",
+          "length": 6
+        },
+        {
+          "offset": 4336313,
+          "offset_hex": "0x422ab9",
+          "length": 3
+        },
+        {
+          "offset": 4336317,
+          "offset_hex": "0x422abd",
+          "length": 6
+        },
+        {
+          "offset": 4383417,
+          "offset_hex": "0x42e2b9",
+          "length": 3
+        },
+        {
+          "offset": 4383421,
+          "offset_hex": "0x42e2bd",
+          "length": 6
+        },
+        {
+          "offset": 4389561,
+          "offset_hex": "0x42fab9",
+          "length": 3
+        },
+        {
+          "offset": 4389565,
+          "offset_hex": "0x42fabd",
+          "length": 6
+        },
+        {
+          "offset": 4395705,
+          "offset_hex": "0x4312b9",
+          "length": 3
+        },
+        {
+          "offset": 4395709,
+          "offset_hex": "0x4312bd",
+          "length": 6
+        },
+        {
+          "offset": 4403897,
+          "offset_hex": "0x4332b9",
+          "length": 3
+        },
+        {
+          "offset": 4403901,
+          "offset_hex": "0x4332bd",
+          "length": 6
+        },
+        {
+          "offset": 5374156,
+          "offset_hex": "0x5200cc",
+          "length": 20
+        },
+        {
+          "offset": 5382348,
+          "offset_hex": "0x5220cc",
+          "length": 20
+        },
+        {
+          "offset": 5406924,
+          "offset_hex": "0x5280cc",
+          "length": 20
+        },
+        {
+          "offset": 5415116,
+          "offset_hex": "0x52a0cc",
+          "length": 20
+        },
+        {
+          "offset": 5429452,
+          "offset_hex": "0x52d8cc",
+          "length": 20
+        },
+        {
+          "offset": 5445836,
+          "offset_hex": "0x5318cc",
+          "length": 20
+        },
+        {
+          "offset": 5454028,
+          "offset_hex": "0x5338cc",
+          "length": 20
+        },
+        {
+          "offset": 5458124,
+          "offset_hex": "0x5348cc",
+          "length": 20
+        },
+        {
+          "offset": 5462220,
+          "offset_hex": "0x5358cc",
+          "length": 20
+        },
+        {
+          "offset": 5466316,
+          "offset_hex": "0x5368cc",
+          "length": 20
+        },
+        {
+          "offset": 5632204,
+          "offset_hex": "0x55f0cc",
+          "length": 20
+        },
+        {
+          "offset": 5636300,
+          "offset_hex": "0x5600cc",
+          "length": 20
+        },
+        {
+          "offset": 5646540,
+          "offset_hex": "0x5628cc",
+          "length": 20
+        },
+        {
+          "offset": 5652684,
+          "offset_hex": "0x5640cc",
+          "length": 20
+        },
+        {
+          "offset": 5656780,
+          "offset_hex": "0x5650cc",
+          "length": 20
+        },
+        {
+          "offset": 5876409,
+          "offset_hex": "0x59aab9",
+          "length": 5
+        },
+        {
+          "offset": 5876415,
+          "offset_hex": "0x59aabf",
+          "length": 4
+        },
+        {
+          "offset": 5884601,
+          "offset_hex": "0x59cab9",
+          "length": 5
+        },
+        {
+          "offset": 5884607,
+          "offset_hex": "0x59cabf",
+          "length": 4
+        },
+        {
+          "offset": 5888697,
+          "offset_hex": "0x59dab9",
+          "length": 5
+        },
+        {
+          "offset": 5888703,
+          "offset_hex": "0x59dabf",
+          "length": 4
+        },
+        {
+          "offset": 6163129,
+          "offset_hex": "0x5e0ab9",
+          "length": 5
+        },
+        {
+          "offset": 6163135,
+          "offset_hex": "0x5e0abf",
+          "length": 4
+        },
+        {
+          "offset": 6169684,
+          "offset_hex": "0x5e2454",
+          "length": 17
+        },
+        {
+          "offset": 6452283,
+          "offset_hex": "0x62743b",
+          "length": 17
+        },
+        {
+          "offset": 6500862,
+          "offset_hex": "0x6331fe",
+          "length": 9
+        },
+        {
+          "offset": 6503468,
+          "offset_hex": "0x633c2c",
+          "length": 17
+        },
+        {
+          "offset": 6511645,
+          "offset_hex": "0x635c1d",
+          "length": 17
+        },
+        {
+          "offset": 6521342,
+          "offset_hex": "0x6381fe",
+          "length": 9
+        },
+        {
+          "offset": 6528014,
+          "offset_hex": "0x639c0e",
+          "length": 17
+        },
+        {
+          "offset": 6536191,
+          "offset_hex": "0x63bbff",
+          "length": 17
+        },
+        {
+          "offset": 6540272,
+          "offset_hex": "0x63cbf0",
+          "length": 17
+        },
+        {
+          "offset": 6641868,
+          "offset_hex": "0x6558cc",
+          "length": 20
+        },
+        {
+          "offset": 6645964,
+          "offset_hex": "0x6568cc",
+          "length": 20
+        },
+        {
+          "offset": 6650060,
+          "offset_hex": "0x6578cc",
+          "length": 20
+        },
+        {
+          "offset": 6688972,
+          "offset_hex": "0x6610cc",
+          "length": 20
+        },
+        {
+          "offset": 6697164,
+          "offset_hex": "0x6630cc",
+          "length": 20
+        },
+        {
+          "offset": 6736076,
+          "offset_hex": "0x66c8cc",
+          "length": 20
+        },
+        {
+          "offset": 6744268,
+          "offset_hex": "0x66e8cc",
+          "length": 20
+        },
+        {
+          "offset": 6758604,
+          "offset_hex": "0x6720cc",
+          "length": 20
+        },
+        {
+          "offset": 6766796,
+          "offset_hex": "0x6740cc",
+          "length": 20
+        },
+        {
+          "offset": 6779084,
+          "offset_hex": "0x6770cc",
+          "length": 20
+        },
+        {
+          "offset": 6795468,
+          "offset_hex": "0x67b0cc",
+          "length": 20
+        },
+        {
+          "offset": 6803660,
+          "offset_hex": "0x67d0cc",
+          "length": 20
+        },
+        {
+          "offset": 6807756,
+          "offset_hex": "0x67e0cc",
+          "length": 20
+        },
+        {
+          "offset": 6811852,
+          "offset_hex": "0x67f0cc",
+          "length": 20
+        },
+        {
+          "offset": 6815948,
+          "offset_hex": "0x6800cc",
+          "length": 20
+        },
+        {
+          "offset": 6922444,
+          "offset_hex": "0x69a0cc",
+          "length": 20
+        },
+        {
+          "offset": 6928588,
+          "offset_hex": "0x69b8cc",
+          "length": 20
+        },
+        {
+          "offset": 6932684,
+          "offset_hex": "0x69c8cc",
+          "length": 20
+        },
+        {
+          "offset": 7618764,
+          "offset_hex": "0x7440cc",
+          "length": 20
+        },
+        {
+          "offset": 7623689,
+          "offset_hex": "0x745409",
+          "length": 17
+        },
+        {
+          "offset": 7704780,
+          "offset_hex": "0x7590cc",
+          "length": 20
+        },
+        {
+          "offset": 7707657,
+          "offset_hex": "0x759c09",
+          "length": 17
+        },
+        {
+          "offset": 7752190,
+          "offset_hex": "0x7649fe",
+          "length": 9
+        },
+        {
+          "offset": 7756824,
+          "offset_hex": "0x765c18",
+          "length": 17
+        },
+        {
+          "offset": 7765031,
+          "offset_hex": "0x767c27",
+          "length": 17
+        },
+        {
+          "offset": 7773243,
+          "offset_hex": "0x769c3b",
+          "length": 17
+        },
+        {
+          "offset": 7776766,
+          "offset_hex": "0x76a9fe",
+          "length": 9
+        },
+        {
+          "offset": 7785546,
+          "offset_hex": "0x76cc4a",
+          "length": 17
+        },
+        {
+          "offset": 7793753,
+          "offset_hex": "0x76ec59",
+          "length": 17
+        },
+        {
+          "offset": 7797864,
+          "offset_hex": "0x76fc68",
+          "length": 17
+        },
+        {
+          "offset": 7915724,
+          "offset_hex": "0x78c8cc",
+          "length": 20
+        },
+        {
+          "offset": 7919820,
+          "offset_hex": "0x78d8cc",
+          "length": 20
+        },
+        {
+          "offset": 7923916,
+          "offset_hex": "0x78e8cc",
+          "length": 20
+        },
+        {
+          "offset": 7993548,
+          "offset_hex": "0x79f8cc",
+          "length": 20
+        },
+        {
+          "offset": 7997644,
+          "offset_hex": "0x7a08cc",
+          "length": 20
+        },
+        {
+          "offset": 8003788,
+          "offset_hex": "0x7a20cc",
+          "length": 20
+        },
+        {
+          "offset": 8014028,
+          "offset_hex": "0x7a48cc",
+          "length": 20
+        },
+        {
+          "offset": 8077516,
+          "offset_hex": "0x7b40cc",
+          "length": 20
+        },
+        {
+          "offset": 8085708,
+          "offset_hex": "0x7b60cc",
+          "length": 20
+        },
+        {
+          "offset": 8110284,
+          "offset_hex": "0x7bc0cc",
+          "length": 20
+        },
+        {
+          "offset": 8118476,
+          "offset_hex": "0x7be0cc",
+          "length": 20
+        },
+        {
+          "offset": 8261836,
+          "offset_hex": "0x7e10cc",
+          "length": 20
+        },
+        {
+          "offset": 8278220,
+          "offset_hex": "0x7e50cc",
+          "length": 20
+        },
+        {
+          "offset": 8286412,
+          "offset_hex": "0x7e70cc",
+          "length": 20
+        },
+        {
+          "offset": 8290508,
+          "offset_hex": "0x7e80cc",
+          "length": 20
+        },
+        {
+          "offset": 8294604,
+          "offset_hex": "0x7e90cc",
+          "length": 20
+        },
+        {
+          "offset": 8298700,
+          "offset_hex": "0x7ea0cc",
+          "length": 20
+        },
+        {
+          "offset": 8466636,
+          "offset_hex": "0x8130cc",
+          "length": 20
+        },
+        {
+          "offset": 8470732,
+          "offset_hex": "0x8140cc",
+          "length": 20
+        },
+        {
+          "offset": 8480972,
+          "offset_hex": "0x8168cc",
+          "length": 20
+        },
+        {
+          "offset": 8487116,
+          "offset_hex": "0x8180cc",
+          "length": 20
+        },
+        {
+          "offset": 8491212,
+          "offset_hex": "0x8190cc",
+          "length": 20
+        },
+        {
+          "offset": 8868948,
+          "offset_hex": "0x875454",
+          "length": 17
+        },
+        {
+          "offset": 8993465,
+          "offset_hex": "0x893ab9",
+          "length": 10
+        },
+        {
+          "offset": 8997068,
+          "offset_hex": "0x8948cc",
+          "length": 20
+        },
+        {
+          "offset": 8999116,
+          "offset_hex": "0x8950cc",
+          "length": 20
+        },
+        {
+          "offset": 9003212,
+          "offset_hex": "0x8960cc",
+          "length": 20
+        },
+        {
+          "offset": 9064831,
+          "offset_hex": "0x8a517f",
+          "length": 15
+        },
+        {
+          "offset": 9065541,
+          "offset_hex": "0x8a5445",
+          "length": 9
+        },
+        {
+          "offset": 9065551,
+          "offset_hex": "0x8a544f",
+          "length": 2
+        },
+        {
+          "offset": 9102009,
+          "offset_hex": "0x8ae2b9",
+          "length": 10
+        },
+        {
+          "offset": 9108153,
+          "offset_hex": "0x8afab9",
+          "length": 10
+        },
+        {
+          "offset": 9114297,
+          "offset_hex": "0x8b12b9",
+          "length": 10
+        },
+        {
+          "offset": 9122489,
+          "offset_hex": "0x8b32b9",
+          "length": 10
+        },
+        {
+          "offset": 9179833,
+          "offset_hex": "0x8c12b9",
+          "length": 10
+        },
+        {
+          "offset": 9185977,
+          "offset_hex": "0x8c2ab9",
+          "length": 10
+        },
+        {
+          "offset": 9192121,
+          "offset_hex": "0x8c42b9",
+          "length": 10
+        },
+        {
+          "offset": 9200313,
+          "offset_hex": "0x8c62b9",
+          "length": 10
+        },
+        {
+          "offset": 9247417,
+          "offset_hex": "0x8d1ab9",
+          "length": 10
+        },
+        {
+          "offset": 9253561,
+          "offset_hex": "0x8d32b9",
+          "length": 10
+        },
+        {
+          "offset": 9259705,
+          "offset_hex": "0x8d4ab9",
+          "length": 10
+        },
+        {
+          "offset": 9269945,
+          "offset_hex": "0x8d72b9",
+          "length": 10
+        },
+        {
+          "offset": 9458361,
+          "offset_hex": "0x9052b9",
+          "length": 10
+        },
+        {
+          "offset": 9464505,
+          "offset_hex": "0x906ab9",
+          "length": 10
+        },
+        {
+          "offset": 9470649,
+          "offset_hex": "0x9082b9",
+          "length": 10
+        },
+        {
+          "offset": 9478841,
+          "offset_hex": "0x90a2b9",
+          "length": 10
+        },
+        {
+          "offset": 9530452,
+          "offset_hex": "0x916c54",
+          "length": 17
+        },
+        {
+          "offset": 9757369,
+          "offset_hex": "0x94e2b9",
+          "length": 10
+        },
+        {
+          "offset": 9763513,
+          "offset_hex": "0x94fab9",
+          "length": 10
+        },
+        {
+          "offset": 9769657,
+          "offset_hex": "0x9512b9",
+          "length": 10
+        },
+        {
+          "offset": 9777849,
+          "offset_hex": "0x9532b9",
+          "length": 10
+        },
+        {
+          "offset": 9827001,
+          "offset_hex": "0x95f2b9",
+          "length": 10
+        },
+        {
+          "offset": 9833145,
+          "offset_hex": "0x960ab9",
+          "length": 10
+        },
+        {
+          "offset": 9839289,
+          "offset_hex": "0x9622b9",
+          "length": 10
+        },
+        {
+          "offset": 9847481,
+          "offset_hex": "0x9642b9",
+          "length": 10
+        },
+        {
+          "offset": 9849529,
+          "offset_hex": "0x964ab9",
+          "length": 3
+        },
+        {
+          "offset": 9849533,
+          "offset_hex": "0x964abd",
+          "length": 6
+        },
+        {
+          "offset": 9851084,
+          "offset_hex": "0x9650cc",
+          "length": 20
+        },
+        {
+          "offset": 9855180,
+          "offset_hex": "0x9660cc",
+          "length": 20
+        },
+        {
+          "offset": 9896746,
+          "offset_hex": "0x97032a",
+          "length": 8
+        },
+        {
+          "offset": 9918668,
+          "offset_hex": "0x9758cc",
+          "length": 20
+        },
+        {
+          "offset": 9950292,
+          "offset_hex": "0x97d454",
+          "length": 17
+        },
+        {
+          "offset": 11113258,
+          "offset_hex": "0xa9932a",
+          "length": 8
+        },
+        {
+          "offset": 12010282,
+          "offset_hex": "0xb7432a",
+          "length": 8
+        }
+      ],
+      "identity_fields": [
+        {
+          "field_path": "nv/item_files/mcfg/mcfg_last_autoselect_iccid",
+          "record_length": 21,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 9855180,
+              "offset_hex": "0x9660cc",
+              "length": 21
+            },
+            {
+              "offset": 9918668,
+              "offset_hex": "0x9758cc",
+              "length": 21
+            }
+          ]
+        },
+        {
+          "field_path": "nv/item_files/modem/uim/mmgsdi/rpm_iccid",
+          "record_length": 30,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 2933433,
+              "offset_hex": "0x2cc2b9",
+              "length": 30
+            },
+            {
+              "offset": 2939577,
+              "offset_hex": "0x2cdab9",
+              "length": 30
+            },
+            {
+              "offset": 2945721,
+              "offset_hex": "0x2cf2b9",
+              "length": 30
+            },
+            {
+              "offset": 2953913,
+              "offset_hex": "0x2d12b9",
+              "length": 30
+            },
+            {
+              "offset": 3015353,
+              "offset_hex": "0x2e02b9",
+              "length": 30
+            },
+            {
+              "offset": 3021497,
+              "offset_hex": "0x2e1ab9",
+              "length": 30
+            },
+            {
+              "offset": 3027641,
+              "offset_hex": "0x2e32b9",
+              "length": 30
+            },
+            {
+              "offset": 3035833,
+              "offset_hex": "0x2e52b9",
+              "length": 30
+            },
+            {
+              "offset": 3093177,
+              "offset_hex": "0x2f32b9",
+              "length": 30
+            },
+            {
+              "offset": 3099321,
+              "offset_hex": "0x2f4ab9",
+              "length": 30
+            },
+            {
+              "offset": 3105465,
+              "offset_hex": "0x2f62b9",
+              "length": 30
+            },
+            {
+              "offset": 3113657,
+              "offset_hex": "0x2f82b9",
+              "length": 30
+            },
+            {
+              "offset": 3160761,
+              "offset_hex": "0x303ab9",
+              "length": 30
+            },
+            {
+              "offset": 3166905,
+              "offset_hex": "0x3052b9",
+              "length": 30
+            },
+            {
+              "offset": 3173049,
+              "offset_hex": "0x306ab9",
+              "length": 30
+            },
+            {
+              "offset": 3181241,
+              "offset_hex": "0x308ab9",
+              "length": 30
+            },
+            {
+              "offset": 3601081,
+              "offset_hex": "0x36f2b9",
+              "length": 30
+            },
+            {
+              "offset": 3613369,
+              "offset_hex": "0x3722b9",
+              "length": 30
+            },
+            {
+              "offset": 3619513,
+              "offset_hex": "0x373ab9",
+              "length": 30
+            },
+            {
+              "offset": 3627705,
+              "offset_hex": "0x375ab9",
+              "length": 30
+            },
+            {
+              "offset": 4168377,
+              "offset_hex": "0x3f9ab9",
+              "length": 30
+            },
+            {
+              "offset": 4174521,
+              "offset_hex": "0x3fb2b9",
+              "length": 30
+            },
+            {
+              "offset": 4180665,
+              "offset_hex": "0x3fcab9",
+              "length": 30
+            },
+            {
+              "offset": 4188857,
+              "offset_hex": "0x3feab9",
+              "length": 30
+            },
+            {
+              "offset": 4235961,
+              "offset_hex": "0x40a2b9",
+              "length": 30
+            },
+            {
+              "offset": 4242105,
+              "offset_hex": "0x40bab9",
+              "length": 30
+            },
+            {
+              "offset": 4248249,
+              "offset_hex": "0x40d2b9",
+              "length": 30
+            },
+            {
+              "offset": 4256441,
+              "offset_hex": "0x40f2b9",
+              "length": 30
+            },
+            {
+              "offset": 4315833,
+              "offset_hex": "0x41dab9",
+              "length": 30
+            },
+            {
+              "offset": 4321977,
+              "offset_hex": "0x41f2b9",
+              "length": 30
+            },
+            {
+              "offset": 4328121,
+              "offset_hex": "0x420ab9",
+              "length": 30
+            },
+            {
+              "offset": 4336313,
+              "offset_hex": "0x422ab9",
+              "length": 30
+            },
+            {
+              "offset": 4383417,
+              "offset_hex": "0x42e2b9",
+              "length": 30
+            },
+            {
+              "offset": 4389561,
+              "offset_hex": "0x42fab9",
+              "length": 30
+            },
+            {
+              "offset": 4395705,
+              "offset_hex": "0x4312b9",
+              "length": 30
+            },
+            {
+              "offset": 4403897,
+              "offset_hex": "0x4332b9",
+              "length": 30
+            },
+            {
+              "offset": 9849529,
+              "offset_hex": "0x964ab9",
+              "length": 30
+            }
+          ]
+        },
+        {
+          "field_path": "nv/item_files/quectel/aaa_bbb",
+          "record_length": 15,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 9064831,
+              "offset_hex": "0x8a517f",
+              "length": 15
+            }
+          ]
+        },
+        {
+          "field_path": "nv/item_files/quectel/quec_imei_backup",
+          "record_length": 12,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 9065541,
+              "offset_hex": "0x8a5445",
+              "length": 12
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/550",
+          "record_length": 9,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 6500862,
+              "offset_hex": "0x6331fe",
+              "length": 9
+            },
+            {
+              "offset": 6521342,
+              "offset_hex": "0x6381fe",
+              "length": 9
+            },
+            {
+              "offset": 7752190,
+              "offset_hex": "0x7649fe",
+              "length": 9
+            },
+            {
+              "offset": 7776766,
+              "offset_hex": "0x76a9fe",
+              "length": 9
+            },
+            {
+              "offset": 9065541,
+              "offset_hex": "0x8a5445",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/7233",
+          "record_length": 64,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 2978900,
+              "offset_hex": "0x2d7454",
+              "length": 64
+            },
+            {
+              "offset": 6169684,
+              "offset_hex": "0x5e2454",
+              "length": 64
+            },
+            {
+              "offset": 6452283,
+              "offset_hex": "0x62743b",
+              "length": 64
+            },
+            {
+              "offset": 6503468,
+              "offset_hex": "0x633c2c",
+              "length": 64
+            },
+            {
+              "offset": 6511645,
+              "offset_hex": "0x635c1d",
+              "length": 64
+            },
+            {
+              "offset": 6528014,
+              "offset_hex": "0x639c0e",
+              "length": 64
+            },
+            {
+              "offset": 6536191,
+              "offset_hex": "0x63bbff",
+              "length": 64
+            },
+            {
+              "offset": 6540272,
+              "offset_hex": "0x63cbf0",
+              "length": 64
+            },
+            {
+              "offset": 7623689,
+              "offset_hex": "0x745409",
+              "length": 64
+            },
+            {
+              "offset": 7707657,
+              "offset_hex": "0x759c09",
+              "length": 64
+            },
+            {
+              "offset": 7756824,
+              "offset_hex": "0x765c18",
+              "length": 64
+            },
+            {
+              "offset": 7765031,
+              "offset_hex": "0x767c27",
+              "length": 64
+            },
+            {
+              "offset": 7773243,
+              "offset_hex": "0x769c3b",
+              "length": 64
+            },
+            {
+              "offset": 7785546,
+              "offset_hex": "0x76cc4a",
+              "length": 64
+            },
+            {
+              "offset": 7793753,
+              "offset_hex": "0x76ec59",
+              "length": 64
+            },
+            {
+              "offset": 7797864,
+              "offset_hex": "0x76fc68",
+              "length": 64
+            },
+            {
+              "offset": 8868948,
+              "offset_hex": "0x875454",
+              "length": 64
+            },
+            {
+              "offset": 9530452,
+              "offset_hex": "0x916c54",
+              "length": 64
+            },
+            {
+              "offset": 9950292,
+              "offset_hex": "0x97d454",
+              "length": 64
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/923",
+          "record_length": 8,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 363306,
+              "offset_hex": "0x58b2a",
+              "length": 8
+            },
+            {
+              "offset": 9896746,
+              "offset_hex": "0x97032a",
+              "length": 8
+            },
+            {
+              "offset": 11113258,
+              "offset_hex": "0xa9932a",
+              "length": 8
+            },
+            {
+              "offset": 12010282,
+              "offset_hex": "0xb7432a",
+              "length": 8
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Field record occurrences identify full matching records; changed_ranges is the exact byte diff including encoded identity copies and long decimal candidates elsewhere. Not every historical range can be mapped to a live file."
+    },
+    {
+      "name": "sys_rev",
+      "file": "sys_rev.redacted.bin",
+      "size": 3407872,
+      "redacted_sha256": "0ed461095f7f675eaebd1483507b5e99d5f36330ef4e05289282ebad1f6f715a",
+      "changed_bytes": 90,
+      "changed_ranges": [
+        {
+          "offset": 57548,
+          "offset_hex": "0xe0cc",
+          "length": 20
+        },
+        {
+          "offset": 310324,
+          "offset_hex": "0x4bc34",
+          "length": 8
+        },
+        {
+          "offset": 316503,
+          "offset_hex": "0x4d457",
+          "length": 17
+        },
+        {
+          "offset": 371102,
+          "offset_hex": "0x5a99e",
+          "length": 15
+        },
+        {
+          "offset": 371748,
+          "offset_hex": "0x5ac24",
+          "length": 9
+        },
+        {
+          "offset": 371758,
+          "offset_hex": "0x5ac2e",
+          "length": 2
+        },
+        {
+          "offset": 414228,
+          "offset_hex": "0x65214",
+          "length": 9
+        },
+        {
+          "offset": 992371,
+          "offset_hex": "0xf2473",
+          "length": 10
+        }
+      ],
+      "identity_fields": [
+        {
+          "field_path": "nv/item_files/mcfg/mcfg_last_autoselect_iccid",
+          "record_length": 21,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [],
+          "mapping_note": "Full logical record is not contiguous in raw image; see exact changed_ranges and encoded pattern matching. No contiguous record offset asserted."
+        },
+        {
+          "field_path": "nv/item_files/modem/uim/mmgsdi/rpm_iccid",
+          "record_length": 30,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [],
+          "mapping_note": "Full logical record is not contiguous in raw image; see exact changed_ranges and encoded pattern matching. No contiguous record offset asserted."
+        },
+        {
+          "field_path": "nv/item_files/quectel/aaa_bbb",
+          "record_length": 15,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 371102,
+              "offset_hex": "0x5a99e",
+              "length": 15
+            }
+          ]
+        },
+        {
+          "field_path": "nv/item_files/quectel/quec_imei_backup",
+          "record_length": 12,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 371748,
+              "offset_hex": "0x5ac24",
+              "length": 12
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/550",
+          "record_length": 9,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 371748,
+              "offset_hex": "0x5ac24",
+              "length": 9
+            },
+            {
+              "offset": 414228,
+              "offset_hex": "0x65214",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/7233",
+          "record_length": 64,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [
+            {
+              "offset": 316503,
+              "offset_hex": "0x4d457",
+              "length": 64
+            }
+          ]
+        },
+        {
+          "field_path": "nvm/num/923",
+          "record_length": 8,
+          "replacement": "0x00 for matched identity content; existing invalid fill retained",
+          "raw_record_occurrences": [],
+          "mapping_note": "Full logical record is not contiguous in raw image; see exact changed_ranges and encoded pattern matching. No contiguous record offset asserted."
+        }
+      ],
+      "coverage_note": "Field record occurrences identify full matching records; changed_ranges is the exact byte diff including encoded identity copies and long decimal candidates elsewhere. Not every historical range can be mapped to a live file."
+    },
+    {
+      "name": "usr_data",
+      "file": "usr_data.redacted.bin",
+      "size": 22020096,
+      "redacted_sha256": "e5dce591b9785a2f8fcdc416a81d96b9d95d98286ae514ccc086bebf6aa46dca",
+      "changed_bytes": 31718,
+      "changed_ranges": [
+        {
+          "offset": 7621316,
+          "offset_hex": "0x744ac4",
+          "length": 4
+        },
+        {
+          "offset": 7621356,
+          "offset_hex": "0x744aec",
+          "length": 1
+        },
+        {
+          "offset": 7621360,
+          "offset_hex": "0x744af0",
+          "length": 54
+        },
+        {
+          "offset": 7621415,
+          "offset_hex": "0x744b27",
+          "length": 72
+        },
+        {
+          "offset": 7621488,
+          "offset_hex": "0x744b70",
+          "length": 62
+        },
+        {
+          "offset": 7621551,
+          "offset_hex": "0x744baf",
+          "length": 1209
+        },
+        {
+          "offset": 7622761,
+          "offset_hex": "0x745069",
+          "length": 273
+        },
+        {
+          "offset": 7623035,
+          "offset_hex": "0x74517b",
+          "length": 257
+        },
+        {
+          "offset": 7623293,
+          "offset_hex": "0x74527d",
+          "length": 134
+        },
+        {
+          "offset": 7623428,
+          "offset_hex": "0x745304",
+          "length": 98
+        },
+        {
+          "offset": 7623527,
+          "offset_hex": "0x745367",
+          "length": 432
+        },
+        {
+          "offset": 7623960,
+          "offset_hex": "0x745518",
+          "length": 2
+        },
+        {
+          "offset": 7623963,
+          "offset_hex": "0x74551b",
+          "length": 25
+        },
+        {
+          "offset": 7630988,
+          "offset_hex": "0x74708c",
+          "length": 4
+        },
+        {
+          "offset": 7631028,
+          "offset_hex": "0x7470b4",
+          "length": 1
+        },
+        {
+          "offset": 7631032,
+          "offset_hex": "0x7470b8",
+          "length": 3
+        },
+        {
+          "offset": 7631036,
+          "offset_hex": "0x7470bc",
+          "length": 711
+        },
+        {
+          "offset": 7631748,
+          "offset_hex": "0x747384",
+          "length": 399
+        },
+        {
+          "offset": 7632148,
+          "offset_hex": "0x747514",
+          "length": 409
+        },
+        {
+          "offset": 7632558,
+          "offset_hex": "0x7476ae",
+          "length": 14
+        },
+        {
+          "offset": 7632573,
+          "offset_hex": "0x7476bd",
+          "length": 696
+        },
+        {
+          "offset": 7633270,
+          "offset_hex": "0x747976",
+          "length": 165
+        },
+        {
+          "offset": 7633436,
+          "offset_hex": "0x747a1c",
+          "length": 24
+        },
+        {
+          "offset": 7633461,
+          "offset_hex": "0x747a35",
+          "length": 28
+        },
+        {
+          "offset": 7633490,
+          "offset_hex": "0x747a52",
+          "length": 83
+        },
+        {
+          "offset": 7633574,
+          "offset_hex": "0x747aa6",
+          "length": 32
+        },
+        {
+          "offset": 7633607,
+          "offset_hex": "0x747ac7",
+          "length": 5
+        },
+        {
+          "offset": 7633613,
+          "offset_hex": "0x747acd",
+          "length": 173
+        },
+        {
+          "offset": 7641364,
+          "offset_hex": "0x749914",
+          "length": 4
+        },
+        {
+          "offset": 7641404,
+          "offset_hex": "0x74993c",
+          "length": 1
+        },
+        {
+          "offset": 7641408,
+          "offset_hex": "0x749940",
+          "length": 686
+        },
+        {
+          "offset": 7642095,
+          "offset_hex": "0x749bef",
+          "length": 6
+        },
+        {
+          "offset": 7642102,
+          "offset_hex": "0x749bf6",
+          "length": 646
+        },
+        {
+          "offset": 7642749,
+          "offset_hex": "0x749e7d",
+          "length": 74
+        },
+        {
+          "offset": 7642824,
+          "offset_hex": "0x749ec8",
+          "length": 171
+        },
+        {
+          "offset": 7642996,
+          "offset_hex": "0x749f74",
+          "length": 33
+        },
+        {
+          "offset": 7643030,
+          "offset_hex": "0x749f96",
+          "length": 38
+        },
+        {
+          "offset": 7643069,
+          "offset_hex": "0x749fbd",
+          "length": 12
+        },
+        {
+          "offset": 7643082,
+          "offset_hex": "0x749fca",
+          "length": 49
+        },
+        {
+          "offset": 7643132,
+          "offset_hex": "0x749ffc",
+          "length": 31
+        },
+        {
+          "offset": 7643164,
+          "offset_hex": "0x74a01c",
+          "length": 376
+        },
+        {
+          "offset": 7643541,
+          "offset_hex": "0x74a195",
+          "length": 81
+        },
+        {
+          "offset": 7643623,
+          "offset_hex": "0x74a1e7",
+          "length": 2
+        },
+        {
+          "offset": 7643626,
+          "offset_hex": "0x74a1ea",
+          "length": 72
+        },
+        {
+          "offset": 7643699,
+          "offset_hex": "0x74a233",
+          "length": 113
+        },
+        {
+          "offset": 7643813,
+          "offset_hex": "0x74a2a5",
+          "length": 62
+        },
+        {
+          "offset": 7643876,
+          "offset_hex": "0x74a2e4",
+          "length": 34
+        },
+        {
+          "offset": 7663116,
+          "offset_hex": "0x74ee0c",
+          "length": 4
+        },
+        {
+          "offset": 7663156,
+          "offset_hex": "0x74ee34",
+          "length": 1
+        },
+        {
+          "offset": 7663160,
+          "offset_hex": "0x74ee38",
+          "length": 54
+        },
+        {
+          "offset": 7663215,
+          "offset_hex": "0x74ee6f",
+          "length": 72
+        },
+        {
+          "offset": 7663288,
+          "offset_hex": "0x74eeb8",
+          "length": 62
+        },
+        {
+          "offset": 7663351,
+          "offset_hex": "0x74eef7",
+          "length": 1209
+        },
+        {
+          "offset": 7664561,
+          "offset_hex": "0x74f3b1",
+          "length": 273
+        },
+        {
+          "offset": 7664835,
+          "offset_hex": "0x74f4c3",
+          "length": 257
+        },
+        {
+          "offset": 7665093,
+          "offset_hex": "0x74f5c5",
+          "length": 134
+        },
+        {
+          "offset": 7665228,
+          "offset_hex": "0x74f64c",
+          "length": 98
+        },
+        {
+          "offset": 7665327,
+          "offset_hex": "0x74f6af",
+          "length": 432
+        },
+        {
+          "offset": 7665760,
+          "offset_hex": "0x74f860",
+          "length": 2
+        },
+        {
+          "offset": 7665763,
+          "offset_hex": "0x74f863",
+          "length": 25
+        },
+        {
+          "offset": 7672772,
+          "offset_hex": "0x7513c4",
+          "length": 4
+        },
+        {
+          "offset": 7672812,
+          "offset_hex": "0x7513ec",
+          "length": 1
+        },
+        {
+          "offset": 7672816,
+          "offset_hex": "0x7513f0",
+          "length": 188
+        },
+        {
+          "offset": 7673005,
+          "offset_hex": "0x7514ad",
+          "length": 137
+        },
+        {
+          "offset": 7673143,
+          "offset_hex": "0x751537",
+          "length": 614
+        },
+        {
+          "offset": 7673758,
+          "offset_hex": "0x75179e",
+          "length": 53
+        },
+        {
+          "offset": 7673812,
+          "offset_hex": "0x7517d4",
+          "length": 287
+        },
+        {
+          "offset": 7674100,
+          "offset_hex": "0x7518f4",
+          "length": 80
+        },
+        {
+          "offset": 7674181,
+          "offset_hex": "0x751945",
+          "length": 257
+        },
+        {
+          "offset": 7674439,
+          "offset_hex": "0x751a47",
+          "length": 312
+        },
+        {
+          "offset": 7674752,
+          "offset_hex": "0x751b80",
+          "length": 11
+        },
+        {
+          "offset": 7674764,
+          "offset_hex": "0x751b8c",
+          "length": 11
+        },
+        {
+          "offset": 7674776,
+          "offset_hex": "0x751b98",
+          "length": 310
+        },
+        {
+          "offset": 7675087,
+          "offset_hex": "0x751ccf",
+          "length": 165
+        },
+        {
+          "offset": 7675253,
+          "offset_hex": "0x751d75",
+          "length": 24
+        },
+        {
+          "offset": 7675278,
+          "offset_hex": "0x751d8e",
+          "length": 28
+        },
+        {
+          "offset": 7675307,
+          "offset_hex": "0x751dab",
+          "length": 82
+        },
+        {
+          "offset": 7675390,
+          "offset_hex": "0x751dfe",
+          "length": 33
+        },
+        {
+          "offset": 7675424,
+          "offset_hex": "0x751e20",
+          "length": 5
+        },
+        {
+          "offset": 7675430,
+          "offset_hex": "0x751e26",
+          "length": 174
+        },
+        {
+          "offset": 7675605,
+          "offset_hex": "0x751ed5",
+          "length": 21
+        },
+        {
+          "offset": 7683180,
+          "offset_hex": "0x753c6c",
+          "length": 4
+        },
+        {
+          "offset": 7683220,
+          "offset_hex": "0x753c94",
+          "length": 1
+        },
+        {
+          "offset": 7683224,
+          "offset_hex": "0x753c98",
+          "length": 250
+        },
+        {
+          "offset": 7683475,
+          "offset_hex": "0x753d93",
+          "length": 65
+        },
+        {
+          "offset": 7683541,
+          "offset_hex": "0x753dd5",
+          "length": 929
+        },
+        {
+          "offset": 7684471,
+          "offset_hex": "0x754177",
+          "length": 75
+        },
+        {
+          "offset": 7684547,
+          "offset_hex": "0x7541c3",
+          "length": 810
+        },
+        {
+          "offset": 7685358,
+          "offset_hex": "0x7544ee",
+          "length": 82
+        },
+        {
+          "offset": 7685441,
+          "offset_hex": "0x754541",
+          "length": 2
+        },
+        {
+          "offset": 7685444,
+          "offset_hex": "0x754544",
+          "length": 72
+        },
+        {
+          "offset": 7685517,
+          "offset_hex": "0x75458d",
+          "length": 116
+        },
+        {
+          "offset": 7685634,
+          "offset_hex": "0x754602",
+          "length": 63
+        },
+        {
+          "offset": 7685698,
+          "offset_hex": "0x754642",
+          "length": 47
+        },
+        {
+          "offset": 7705012,
+          "offset_hex": "0x7591b4",
+          "length": 4
+        },
+        {
+          "offset": 7705052,
+          "offset_hex": "0x7591dc",
+          "length": 1
+        },
+        {
+          "offset": 7705056,
+          "offset_hex": "0x7591e0",
+          "length": 39
+        },
+        {
+          "offset": 7705096,
+          "offset_hex": "0x759208",
+          "length": 578
+        },
+        {
+          "offset": 7705675,
+          "offset_hex": "0x75944b",
+          "length": 232
+        },
+        {
+          "offset": 7705908,
+          "offset_hex": "0x759534",
+          "length": 617
+        },
+        {
+          "offset": 7706526,
+          "offset_hex": "0x75979e",
+          "length": 463
+        },
+        {
+          "offset": 7706990,
+          "offset_hex": "0x75996e",
+          "length": 135
+        },
+        {
+          "offset": 7707126,
+          "offset_hex": "0x7599f6",
+          "length": 98
+        },
+        {
+          "offset": 7707225,
+          "offset_hex": "0x759a59",
+          "length": 431
+        },
+        {
+          "offset": 7707657,
+          "offset_hex": "0x759c09",
+          "length": 2
+        },
+        {
+          "offset": 7707660,
+          "offset_hex": "0x759c0c",
+          "length": 23
+        },
+        {
+          "offset": 7714676,
+          "offset_hex": "0x75b774",
+          "length": 4
+        },
+        {
+          "offset": 7714716,
+          "offset_hex": "0x75b79c",
+          "length": 1
+        },
+        {
+          "offset": 7714720,
+          "offset_hex": "0x75b7a0",
+          "length": 92
+        },
+        {
+          "offset": 7714813,
+          "offset_hex": "0x75b7fd",
+          "length": 189
+        },
+        {
+          "offset": 7715003,
+          "offset_hex": "0x75b8bb",
+          "length": 295
+        },
+        {
+          "offset": 7715299,
+          "offset_hex": "0x75b9e3",
+          "length": 139
+        },
+        {
+          "offset": 7715439,
+          "offset_hex": "0x75ba6f",
+          "length": 170
+        },
+        {
+          "offset": 7715610,
+          "offset_hex": "0x75bb1a",
+          "length": 44
+        },
+        {
+          "offset": 7715655,
+          "offset_hex": "0x75bb47",
+          "length": 14
+        },
+        {
+          "offset": 7715670,
+          "offset_hex": "0x75bb56",
+          "length": 325
+        },
+        {
+          "offset": 7715996,
+          "offset_hex": "0x75bc9c",
+          "length": 618
+        },
+        {
+          "offset": 7716615,
+          "offset_hex": "0x75bf07",
+          "length": 342
+        },
+        {
+          "offset": 7716958,
+          "offset_hex": "0x75c05e",
+          "length": 165
+        },
+        {
+          "offset": 7717124,
+          "offset_hex": "0x75c104",
+          "length": 24
+        },
+        {
+          "offset": 7717149,
+          "offset_hex": "0x75c11d",
+          "length": 28
+        },
+        {
+          "offset": 7717178,
+          "offset_hex": "0x75c13a",
+          "length": 83
+        },
+        {
+          "offset": 7717262,
+          "offset_hex": "0x75c18e",
+          "length": 32
+        },
+        {
+          "offset": 7717295,
+          "offset_hex": "0x75c1af",
+          "length": 5
+        },
+        {
+          "offset": 7717301,
+          "offset_hex": "0x75c1b5",
+          "length": 150
+        },
+        {
+          "offset": 7717452,
+          "offset_hex": "0x75c24c",
+          "length": 24
+        },
+        {
+          "offset": 7725036,
+          "offset_hex": "0x75dfec",
+          "length": 4
+        },
+        {
+          "offset": 7725076,
+          "offset_hex": "0x75e014",
+          "length": 1
+        },
+        {
+          "offset": 7725080,
+          "offset_hex": "0x75e018",
+          "length": 64
+        },
+        {
+          "offset": 7725145,
+          "offset_hex": "0x75e059",
+          "length": 564
+        },
+        {
+          "offset": 7725710,
+          "offset_hex": "0x75e28e",
+          "length": 193
+        },
+        {
+          "offset": 7725904,
+          "offset_hex": "0x75e350",
+          "length": 758
+        },
+        {
+          "offset": 7726663,
+          "offset_hex": "0x75e647",
+          "length": 554
+        },
+        {
+          "offset": 7727218,
+          "offset_hex": "0x75e872",
+          "length": 81
+        },
+        {
+          "offset": 7727300,
+          "offset_hex": "0x75e8c4",
+          "length": 2
+        },
+        {
+          "offset": 7727303,
+          "offset_hex": "0x75e8c7",
+          "length": 72
+        },
+        {
+          "offset": 7727376,
+          "offset_hex": "0x75e910",
+          "length": 113
+        },
+        {
+          "offset": 7727490,
+          "offset_hex": "0x75e982",
+          "length": 62
+        },
+        {
+          "offset": 7727553,
+          "offset_hex": "0x75e9c1",
+          "length": 32
+        },
+        {
+          "offset": 12339220,
+          "offset_hex": "0xbc4814",
+          "length": 4
+        },
+        {
+          "offset": 12339260,
+          "offset_hex": "0xbc483c",
+          "length": 1
+        },
+        {
+          "offset": 12339264,
+          "offset_hex": "0xbc4840",
+          "length": 54
+        },
+        {
+          "offset": 12339319,
+          "offset_hex": "0xbc4877",
+          "length": 72
+        },
+        {
+          "offset": 12339392,
+          "offset_hex": "0xbc48c0",
+          "length": 62
+        },
+        {
+          "offset": 12339455,
+          "offset_hex": "0xbc48ff",
+          "length": 1209
+        },
+        {
+          "offset": 12340665,
+          "offset_hex": "0xbc4db9",
+          "length": 273
+        },
+        {
+          "offset": 12340939,
+          "offset_hex": "0xbc4ecb",
+          "length": 257
+        },
+        {
+          "offset": 12341197,
+          "offset_hex": "0xbc4fcd",
+          "length": 134
+        },
+        {
+          "offset": 12341332,
+          "offset_hex": "0xbc5054",
+          "length": 98
+        },
+        {
+          "offset": 12341431,
+          "offset_hex": "0xbc50b7",
+          "length": 432
+        },
+        {
+          "offset": 12341864,
+          "offset_hex": "0xbc5268",
+          "length": 2
+        },
+        {
+          "offset": 12341867,
+          "offset_hex": "0xbc526b",
+          "length": 25
+        },
+        {
+          "offset": 12348876,
+          "offset_hex": "0xbc6dcc",
+          "length": 4
+        },
+        {
+          "offset": 12348916,
+          "offset_hex": "0xbc6df4",
+          "length": 1
+        },
+        {
+          "offset": 12348920,
+          "offset_hex": "0xbc6df8",
+          "length": 188
+        },
+        {
+          "offset": 12349109,
+          "offset_hex": "0xbc6eb5",
+          "length": 137
+        },
+        {
+          "offset": 12349247,
+          "offset_hex": "0xbc6f3f",
+          "length": 614
+        },
+        {
+          "offset": 12349862,
+          "offset_hex": "0xbc71a6",
+          "length": 53
+        },
+        {
+          "offset": 12349916,
+          "offset_hex": "0xbc71dc",
+          "length": 287
+        },
+        {
+          "offset": 12350204,
+          "offset_hex": "0xbc72fc",
+          "length": 80
+        },
+        {
+          "offset": 12350285,
+          "offset_hex": "0xbc734d",
+          "length": 257
+        },
+        {
+          "offset": 12350543,
+          "offset_hex": "0xbc744f",
+          "length": 312
+        },
+        {
+          "offset": 12350856,
+          "offset_hex": "0xbc7588",
+          "length": 11
+        },
+        {
+          "offset": 12350868,
+          "offset_hex": "0xbc7594",
+          "length": 11
+        },
+        {
+          "offset": 12350880,
+          "offset_hex": "0xbc75a0",
+          "length": 310
+        },
+        {
+          "offset": 12351191,
+          "offset_hex": "0xbc76d7",
+          "length": 165
+        },
+        {
+          "offset": 12351357,
+          "offset_hex": "0xbc777d",
+          "length": 24
+        },
+        {
+          "offset": 12351382,
+          "offset_hex": "0xbc7796",
+          "length": 28
+        },
+        {
+          "offset": 12351411,
+          "offset_hex": "0xbc77b3",
+          "length": 82
+        },
+        {
+          "offset": 12351494,
+          "offset_hex": "0xbc7806",
+          "length": 33
+        },
+        {
+          "offset": 12351528,
+          "offset_hex": "0xbc7828",
+          "length": 5
+        },
+        {
+          "offset": 12351534,
+          "offset_hex": "0xbc782e",
+          "length": 174
+        },
+        {
+          "offset": 12351709,
+          "offset_hex": "0xbc78dd",
+          "length": 21
+        },
+        {
+          "offset": 12359284,
+          "offset_hex": "0xbc9674",
+          "length": 4
+        },
+        {
+          "offset": 12359324,
+          "offset_hex": "0xbc969c",
+          "length": 1
+        },
+        {
+          "offset": 12359328,
+          "offset_hex": "0xbc96a0",
+          "length": 250
+        },
+        {
+          "offset": 12359579,
+          "offset_hex": "0xbc979b",
+          "length": 65
+        },
+        {
+          "offset": 12359645,
+          "offset_hex": "0xbc97dd",
+          "length": 929
+        },
+        {
+          "offset": 12360575,
+          "offset_hex": "0xbc9b7f",
+          "length": 75
+        },
+        {
+          "offset": 12360651,
+          "offset_hex": "0xbc9bcb",
+          "length": 810
+        },
+        {
+          "offset": 12361462,
+          "offset_hex": "0xbc9ef6",
+          "length": 82
+        },
+        {
+          "offset": 12361545,
+          "offset_hex": "0xbc9f49",
+          "length": 2
+        },
+        {
+          "offset": 12361548,
+          "offset_hex": "0xbc9f4c",
+          "length": 72
+        },
+        {
+          "offset": 12361621,
+          "offset_hex": "0xbc9f95",
+          "length": 116
+        },
+        {
+          "offset": 12361738,
+          "offset_hex": "0xbca00a",
+          "length": 63
+        },
+        {
+          "offset": 12361802,
+          "offset_hex": "0xbca04a",
+          "length": 47
+        },
+        {
+          "offset": 12406788,
+          "offset_hex": "0xbd5004",
+          "length": 4
+        },
+        {
+          "offset": 12406860,
+          "offset_hex": "0xbd504c",
+          "length": 20
+        },
+        {
+          "offset": 13522948,
+          "offset_hex": "0xce5804",
+          "length": 4
+        },
+        {
+          "offset": 13523020,
+          "offset_hex": "0xce584c",
+          "length": 20
+        },
+        {
+          "offset": 13529092,
+          "offset_hex": "0xce7004",
+          "length": 4
+        },
+        {
+          "offset": 13529166,
+          "offset_hex": "0xce704e",
+          "length": 18
+        },
+        {
+          "offset": 13543428,
+          "offset_hex": "0xcea804",
+          "length": 4
+        },
+        {
+          "offset": 13543500,
+          "offset_hex": "0xcea84c",
+          "length": 20
+        },
+        {
+          "offset": 13565956,
+          "offset_hex": "0xcf0004",
+          "length": 4
+        },
+        {
+          "offset": 13566028,
+          "offset_hex": "0xcf004c",
+          "length": 20
+        }
+      ],
+      "decoded_files": [
+        {
+          "file_path": "usrdata/usrdata/yuntu_sdk_saveinfo",
+          "file_size": 96,
+          "offset_basis": "Decoded logical file content",
+          "changed_ranges": [
+            {
+              "offset": 28,
+              "offset_hex": "0x1c",
+              "length": 20
+            }
+          ]
+        },
+        {
+          "file_path": "usrdata/data/misc/wifi/hostapd-factory.conf",
+          "file_size": 66889,
+          "offset_basis": "Decoded logical file content",
+          "changed_ranges": [
+            {
+              "offset": 14157,
+              "offset_hex": "0x374d",
+              "length": 19
+            },
+            {
+              "offset": 30442,
+              "offset_hex": "0x76ea",
+              "length": 21
+            },
+            {
+              "offset": 30947,
+              "offset_hex": "0x78e3",
+              "length": 21
+            },
+            {
+              "offset": 46785,
+              "offset_hex": "0xb6c1",
+              "length": 21
+            },
+            {
+              "offset": 46861,
+              "offset_hex": "0xb70d",
+              "length": 20
+            },
+            {
+              "offset": 47265,
+              "offset_hex": "0xb8a1",
+              "length": 21
+            },
+            {
+              "offset": 47340,
+              "offset_hex": "0xb8ec",
+              "length": 20
+            }
+          ]
+        },
+        {
+          "file_path": "usrdata/data/misc/wifi/hostapd-wlan1.conf",
+          "file_size": 66928,
+          "offset_basis": "Decoded logical file content",
+          "changed_ranges": [
+            {
+              "offset": 14159,
+              "offset_hex": "0x374f",
+              "length": 19
+            },
+            {
+              "offset": 30481,
+              "offset_hex": "0x7711",
+              "length": 21
+            },
+            {
+              "offset": 30986,
+              "offset_hex": "0x790a",
+              "length": 21
+            },
+            {
+              "offset": 46824,
+              "offset_hex": "0xb6e8",
+              "length": 21
+            },
+            {
+              "offset": 46900,
+              "offset_hex": "0xb734",
+              "length": 20
+            },
+            {
+              "offset": 47304,
+              "offset_hex": "0xb8c8",
+              "length": 21
+            },
+            {
+              "offset": 47379,
+              "offset_hex": "0xb913",
+              "length": 20
+            }
+          ]
+        },
+        {
+          "file_path": "usrdata/data/misc/wifi/hostapd.conf",
+          "file_size": 66889,
+          "offset_basis": "Decoded logical file content",
+          "changed_ranges": [
+            {
+              "offset": 14157,
+              "offset_hex": "0x374d",
+              "length": 19
+            },
+            {
+              "offset": 30442,
+              "offset_hex": "0x76ea",
+              "length": 21
+            },
+            {
+              "offset": 30947,
+              "offset_hex": "0x78e3",
+              "length": 21
+            },
+            {
+              "offset": 46785,
+              "offset_hex": "0xb6c1",
+              "length": 21
+            },
+            {
+              "offset": 46861,
+              "offset_hex": "0xb70d",
+              "length": 20
+            },
+            {
+              "offset": 47265,
+              "offset_hex": "0xb8a1",
+              "length": 21
+            },
+            {
+              "offset": 47340,
+              "offset_hex": "0xb8ec",
+              "length": 20
+            }
+          ]
+        },
+        {
+          "file_path": "usrdata/data/misc/wifi/sta_mode_hostapd.conf",
+          "file_size": 66926,
+          "offset_basis": "Decoded logical file content",
+          "changed_ranges": [
+            {
+              "offset": 14157,
+              "offset_hex": "0x374d",
+              "length": 19
+            },
+            {
+              "offset": 30479,
+              "offset_hex": "0x770f",
+              "length": 21
+            },
+            {
+              "offset": 30984,
+              "offset_hex": "0x7908",
+              "length": 21
+            },
+            {
+              "offset": 46822,
+              "offset_hex": "0xb6e6",
+              "length": 21
+            },
+            {
+              "offset": 46898,
+              "offset_hex": "0xb732",
+              "length": 20
+            },
+            {
+              "offset": 47302,
+              "offset_hex": "0xb8c6",
+              "length": 21
+            },
+            {
+              "offset": 47377,
+              "offset_hex": "0xb911",
+              "length": 20
+            }
+          ]
+        }
+      ],
+      "modified_ubifs_nodes": [
+        {
+          "node_offset": 7621312,
+          "node_offset_hex": "0x744ac0",
+          "node_length": 2678,
+          "inode_number": 74,
+          "logical_block": 3,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf",
+            "usrdata/data/misc/wifi/sta_mode_hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1869,
+              "offset_hex": "0x74d",
+              "length": 19
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7621316,
+            "offset_hex": "0x744ac4",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7621356,
+            "offset_hex": "0x744aec",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7621360,
+            "offset_hex": "0x744af0",
+            "length": 2630
+          }
+        },
+        {
+          "node_offset": 7630984,
+          "node_offset_hex": "0x747088",
+          "node_length": 2804,
+          "inode_number": 74,
+          "logical_block": 7,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/sta_mode_hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1807,
+              "offset_hex": "0x70f",
+              "length": 21
+            },
+            {
+              "offset": 2312,
+              "offset_hex": "0x908",
+              "length": 21
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7630988,
+            "offset_hex": "0x74708c",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7631028,
+            "offset_hex": "0x7470b4",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7631032,
+            "offset_hex": "0x7470b8",
+            "length": 2756
+          }
+        },
+        {
+          "node_offset": 7641360,
+          "node_offset_hex": "0x749910",
+          "node_length": 2552,
+          "inode_number": 74,
+          "logical_block": 11,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/sta_mode_hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1766,
+              "offset_hex": "0x6e6",
+              "length": 21
+            },
+            {
+              "offset": 1842,
+              "offset_hex": "0x732",
+              "length": 20
+            },
+            {
+              "offset": 2246,
+              "offset_hex": "0x8c6",
+              "length": 21
+            },
+            {
+              "offset": 2321,
+              "offset_hex": "0x911",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7641364,
+            "offset_hex": "0x749914",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7641404,
+            "offset_hex": "0x74993c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7641408,
+            "offset_hex": "0x749940",
+            "length": 2504
+          }
+        },
+        {
+          "node_offset": 7663112,
+          "node_offset_hex": "0x74ee08",
+          "node_length": 2678,
+          "inode_number": 75,
+          "logical_block": 3,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf",
+            "usrdata/data/misc/wifi/sta_mode_hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1869,
+              "offset_hex": "0x74d",
+              "length": 19
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7663116,
+            "offset_hex": "0x74ee0c",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7663156,
+            "offset_hex": "0x74ee34",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7663160,
+            "offset_hex": "0x74ee38",
+            "length": 2630
+          }
+        },
+        {
+          "node_offset": 7672768,
+          "node_offset_hex": "0x7513c0",
+          "node_length": 2860,
+          "inode_number": 75,
+          "logical_block": 7,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1770,
+              "offset_hex": "0x6ea",
+              "length": 21
+            },
+            {
+              "offset": 2275,
+              "offset_hex": "0x8e3",
+              "length": 21
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7672772,
+            "offset_hex": "0x7513c4",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7672812,
+            "offset_hex": "0x7513ec",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7672816,
+            "offset_hex": "0x7513f0",
+            "length": 2812
+          }
+        },
+        {
+          "node_offset": 7683176,
+          "node_offset_hex": "0x753c68",
+          "node_length": 2571,
+          "inode_number": 75,
+          "logical_block": 11,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1729,
+              "offset_hex": "0x6c1",
+              "length": 21
+            },
+            {
+              "offset": 1805,
+              "offset_hex": "0x70d",
+              "length": 20
+            },
+            {
+              "offset": 2209,
+              "offset_hex": "0x8a1",
+              "length": 21
+            },
+            {
+              "offset": 2284,
+              "offset_hex": "0x8ec",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7683180,
+            "offset_hex": "0x753c6c",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7683220,
+            "offset_hex": "0x753c94",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7683224,
+            "offset_hex": "0x753c98",
+            "length": 2523
+          }
+        },
+        {
+          "node_offset": 7705008,
+          "node_offset_hex": "0x7591b0",
+          "node_length": 2677,
+          "inode_number": 76,
+          "logical_block": 3,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-wlan1.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1871,
+              "offset_hex": "0x74f",
+              "length": 19
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7705012,
+            "offset_hex": "0x7591b4",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7705052,
+            "offset_hex": "0x7591dc",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7705056,
+            "offset_hex": "0x7591e0",
+            "length": 2629
+          }
+        },
+        {
+          "node_offset": 7714672,
+          "node_offset_hex": "0x75b770",
+          "node_length": 2806,
+          "inode_number": 76,
+          "logical_block": 7,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-wlan1.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1809,
+              "offset_hex": "0x711",
+              "length": 21
+            },
+            {
+              "offset": 2314,
+              "offset_hex": "0x90a",
+              "length": 21
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7714676,
+            "offset_hex": "0x75b774",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7714716,
+            "offset_hex": "0x75b79c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7714720,
+            "offset_hex": "0x75b7a0",
+            "length": 2758
+          }
+        },
+        {
+          "node_offset": 7725032,
+          "node_offset_hex": "0x75dfe8",
+          "node_length": 2555,
+          "inode_number": 76,
+          "logical_block": 11,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-wlan1.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1768,
+              "offset_hex": "0x6e8",
+              "length": 21
+            },
+            {
+              "offset": 1844,
+              "offset_hex": "0x734",
+              "length": 20
+            },
+            {
+              "offset": 2248,
+              "offset_hex": "0x8c8",
+              "length": 21
+            },
+            {
+              "offset": 2323,
+              "offset_hex": "0x913",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 7725036,
+            "offset_hex": "0x75dfec",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 7725076,
+            "offset_hex": "0x75e014",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 7725080,
+            "offset_hex": "0x75e018",
+            "length": 2507
+          }
+        },
+        {
+          "node_offset": 12339216,
+          "node_offset_hex": "0xbc4810",
+          "node_length": 2678,
+          "inode_number": 78,
+          "logical_block": 3,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf",
+            "usrdata/data/misc/wifi/sta_mode_hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1869,
+              "offset_hex": "0x74d",
+              "length": 19
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 12339220,
+            "offset_hex": "0xbc4814",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 12339260,
+            "offset_hex": "0xbc483c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 12339264,
+            "offset_hex": "0xbc4840",
+            "length": 2630
+          }
+        },
+        {
+          "node_offset": 12348872,
+          "node_offset_hex": "0xbc6dc8",
+          "node_length": 2860,
+          "inode_number": 78,
+          "logical_block": 7,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1770,
+              "offset_hex": "0x6ea",
+              "length": 21
+            },
+            {
+              "offset": 2275,
+              "offset_hex": "0x8e3",
+              "length": 21
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 12348876,
+            "offset_hex": "0xbc6dcc",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 12348916,
+            "offset_hex": "0xbc6df4",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 12348920,
+            "offset_hex": "0xbc6df8",
+            "length": 2812
+          }
+        },
+        {
+          "node_offset": 12359280,
+          "node_offset_hex": "0xbc9670",
+          "node_length": 2571,
+          "inode_number": 78,
+          "logical_block": 11,
+          "candidate_current_file_paths": [
+            "usrdata/data/misc/wifi/hostapd-factory.conf",
+            "usrdata/data/misc/wifi/hostapd.conf"
+          ],
+          "compression_before": 1,
+          "compression_after": 2,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 1729,
+              "offset_hex": "0x6c1",
+              "length": 21
+            },
+            {
+              "offset": 1805,
+              "offset_hex": "0x70d",
+              "length": 20
+            },
+            {
+              "offset": 2209,
+              "offset_hex": "0x8a1",
+              "length": 21
+            },
+            {
+              "offset": 2284,
+              "offset_hex": "0x8ec",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 12359284,
+            "offset_hex": "0xbc9674",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 12359324,
+            "offset_hex": "0xbc969c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 12359328,
+            "offset_hex": "0xbc96a0",
+            "length": 2523
+          }
+        },
+        {
+          "node_offset": 12406784,
+          "node_offset_hex": "0xbd5000",
+          "node_length": 144,
+          "inode_number": 114,
+          "logical_block": 0,
+          "candidate_current_file_paths": [],
+          "compression_before": 0,
+          "compression_after": 0,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 28,
+              "offset_hex": "0x1c",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 12406788,
+            "offset_hex": "0xbd5004",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 12406828,
+            "offset_hex": "0xbd502c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 12406832,
+            "offset_hex": "0xbd5030",
+            "length": 96
+          }
+        },
+        {
+          "node_offset": 13522944,
+          "node_offset_hex": "0xce5800",
+          "node_length": 144,
+          "inode_number": 114,
+          "logical_block": 0,
+          "candidate_current_file_paths": [],
+          "compression_before": 0,
+          "compression_after": 0,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 28,
+              "offset_hex": "0x1c",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 13522948,
+            "offset_hex": "0xce5804",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 13522988,
+            "offset_hex": "0xce582c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 13522992,
+            "offset_hex": "0xce5830",
+            "length": 96
+          }
+        },
+        {
+          "node_offset": 13529088,
+          "node_offset_hex": "0xce7000",
+          "node_length": 144,
+          "inode_number": 114,
+          "logical_block": 0,
+          "candidate_current_file_paths": [],
+          "compression_before": 0,
+          "compression_after": 0,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 30,
+              "offset_hex": "0x1e",
+              "length": 18
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 13529092,
+            "offset_hex": "0xce7004",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 13529132,
+            "offset_hex": "0xce702c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 13529136,
+            "offset_hex": "0xce7030",
+            "length": 96
+          }
+        },
+        {
+          "node_offset": 13543424,
+          "node_offset_hex": "0xcea800",
+          "node_length": 144,
+          "inode_number": 114,
+          "logical_block": 0,
+          "candidate_current_file_paths": [],
+          "compression_before": 0,
+          "compression_after": 0,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 28,
+              "offset_hex": "0x1c",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 13543428,
+            "offset_hex": "0xcea804",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 13543468,
+            "offset_hex": "0xcea82c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 13543472,
+            "offset_hex": "0xcea830",
+            "length": 96
+          }
+        },
+        {
+          "node_offset": 13565952,
+          "node_offset_hex": "0xcf0000",
+          "node_length": 144,
+          "inode_number": 114,
+          "logical_block": 0,
+          "candidate_current_file_paths": [
+            "usrdata/usrdata/yuntu_sdk_saveinfo"
+          ],
+          "compression_before": 0,
+          "compression_after": 0,
+          "decoded_block_changed_ranges": [
+            {
+              "offset": 28,
+              "offset_hex": "0x1c",
+              "length": 20
+            }
+          ],
+          "decoded_offset_basis": "Start of decoded data node; add logical_block * 4096 for file offset",
+          "crc_field": {
+            "offset": 13565956,
+            "offset_hex": "0xcf0004",
+            "length": 4
+          },
+          "compression_field": {
+            "offset": 13565996,
+            "offset_hex": "0xcf002c",
+            "length": 2
+          },
+          "encoded_payload": {
+            "offset": 13566000,
+            "offset_hex": "0xcf0030",
+            "length": 96
+          }
+        }
+      ],
+      "coverage_note": "Node offsets include parseable historical copies. Empty candidate_current_file_paths means no current file matched that original node. Compressed payload changes are not direct identity field offsets."
+    },
+    {
+      "name": "sec",
+      "file": "sec.redacted.bin",
+      "size": 524288,
+      "redacted_sha256": "043e238a765f7cfbc62596a50e53c8ffb6b188a99357b0ebede251725d67589f",
+      "changed_bytes": 0,
+      "changed_ranges": [],
+      "note": "Entire original partition is FF; no field or byte changed."
+    },
+    {
+      "name": "machine",
+      "file": "machine.redacted.bin",
+      "size": 655360,
+      "redacted_sha256": "152e56baeaace51ee143f9a1b95d3b9d546cb873c259fecdbbb23ffb9d0dd22a",
+      "changed_bytes": 0,
+      "changed_ranges": [],
+      "note": "Entire original partition is FF; no field or byte changed."
+    },
+    {
+      "name": "misc",
+      "file": "misc.redacted.bin",
+      "size": 524288,
+      "redacted_sha256": "043e238a765f7cfbc62596a50e53c8ffb6b188a99357b0ebede251725d67589f",
+      "changed_bytes": 0,
+      "changed_ranges": [],
+      "note": "Entire original partition is FF; no field or byte changed."
+    }
+  ]
+}

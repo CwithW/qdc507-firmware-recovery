@@ -50,6 +50,50 @@
       "rfnv_files_verified_unchanged": 943,
       "filesystem_reparsed": true,
       "identity_records_reparsed_as_invalid": true
+    },
+    {
+      "name": "usr_data",
+      "file": "usr_data.redacted.bin",
+      "size": 22020096,
+      "sha256": "e5dce591b9785a2f8fcdc416a81d96b9d95d98286ae514ccc086bebf6aa46dca",
+      "changed_bytes": 31718,
+      "matched_ranges_before_merge": 26,
+      "known_identity_patterns_remaining": 0,
+      "ubifs_data_nodes_scanned": 165,
+      "ubifs_data_nodes_modified": 17,
+      "modified_node_crcs_updated": true,
+      "extracted_regular_files": 24,
+      "filesystem_reparsed": true,
+      "extracted_regular_files_verified": 24,
+      "extracted_regular_files_redacted": 5,
+      "extracted_file_changes_limited_to_redaction": true
+    },
+    {
+      "name": "sec",
+      "file": "sec.redacted.bin",
+      "size": 524288,
+      "sha256": "043e238a765f7cfbc62596a50e53c8ffb6b188a99357b0ebede251725d67589f",
+      "changed_bytes": 0,
+      "entire_partition_ff": true,
+      "known_identity_patterns_remaining": 0
+    },
+    {
+      "name": "machine",
+      "file": "machine.redacted.bin",
+      "size": 655360,
+      "sha256": "152e56baeaace51ee143f9a1b95d3b9d546cb873c259fecdbbb23ffb9d0dd22a",
+      "changed_bytes": 0,
+      "entire_partition_ff": true,
+      "known_identity_patterns_remaining": 0
+    },
+    {
+      "name": "misc",
+      "file": "misc.redacted.bin",
+      "size": 524288,
+      "sha256": "043e238a765f7cfbc62596a50e53c8ffb6b188a99357b0ebede251725d67589f",
+      "changed_bytes": 0,
+      "entire_partition_ff": true,
+      "known_identity_patterns_remaining": 0
     }
   ]
 }

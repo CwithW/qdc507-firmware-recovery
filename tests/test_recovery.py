@@ -78,12 +78,28 @@ class ProtectionTests(unittest.TestCase):
     def test_reference_partitions_cannot_be_flashed(self):
         reference = ROOT / 'reference/calibration'
         report = json.loads((reference / 'sanitization.json').read_text())
-        self.assertEqual({p['name'] for p in report['partitions']}, {'EFS2', 'sys_rev'})
+        self.assertEqual({p['name'] for p in report['partitions']}, set(r.PROTECTED))
+        mapping = json.loads((reference / 'redaction-map.json').read_text())
+        mapped = {p['name']: p for p in mapping['partitions']}
+        self.assertEqual(set(mapped), set(r.PROTECTED))
         for p in report['partitions']:
             image = reference / p['file']
             start, size = r.REGIONS[p['name']]
             self.assertEqual(image.stat().st_size, size)
             self.assertEqual(r.digest(image), p['sha256'])
+            record = mapped[p['name']]
+            self.assertEqual(record['redacted_sha256'], p['sha256'])
+            end = total = 0
+            for span in record['changed_ranges']:
+                self.assertGreaterEqual(span['offset'], end)
+                self.assertGreater(span['length'], 0)
+                self.assertEqual(int(span['offset_hex'], 16), span['offset'])
+                end = span['offset'] + span['length']
+                self.assertLessEqual(end, size)
+                total += span['length']
+            self.assertEqual(total, p['changed_bytes'])
+            if p.get('entire_partition_ff'):
+                self.assertEqual(image.read_bytes(), b'\xff' * size)
             for mode in ('update', 'nand-rebuild'):
                 with self.assertRaises(ValueError):
                     guard.validate_command(['ws', str(start // r.PAGE), str(image)], mode)
